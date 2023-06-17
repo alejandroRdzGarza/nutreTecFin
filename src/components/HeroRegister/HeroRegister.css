@@ -1,0 +1,48 @@
+.hero{
+    display: flex;
+    justify-content: space-between;
+}
+
+.heroregister {
+    position: relative;
+    right: 8rem;
+    z-index: 10;
+}
+
+.left-h{
+    padding: 2rem;
+    padding-top: 1.5rem;
+    flex: 3;
+    display: flex;
+    gap: 2rem;
+    flex-direction: column;
+}
+
+.right-h{
+    display: flex;
+    flex: 1;
+    position: relative;
+    background-color: var(--green);
+}
+
+
+.doctor-image {
+    position: absolute;
+    top: 5rem;
+    right: 10rem;
+    width: 5rem;
+}
+
+.hero-image-back-regis {
+    position: absolute;
+    top: 5rem;
+    right: 10rem;
+    z-index: -1;
+    width: 32rem;
+}
+
+.blur-h {
+    width: 22rem;
+    height: 30rem;
+    left: 0;
+}

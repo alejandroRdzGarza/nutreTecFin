@@ -1,0 +1,438 @@
+.SeccionEntera_Survey {
+    position: relative;
+    left: 8.5rem;
+    width: 70%;
+    background: linear-gradient(to bottom right, limegreen, rgb(0, 180, 180));
+    display: flex;
+    border-radius: 20px;
+    border: 1px solid white;
+    padding: 0;
+    height: 65rem;
+    justify-content: center;
+}
+
+.registrada {
+    background: transparent;
+    margin: 0;
+    justify-content: center;
+}
+
+.survey_total {
+    width: 100%;
+    color: white;
+}
+
+.formulario {
+    width: 100%;
+    display: flex;
+    position: relative;
+}
+
+.left_survey {
+    width: 25%;
+}
+
+.left_survey>:nth-child(1) {
+    display: flex;
+    position: relative;
+    left: 2rem;
+}
+
+.left_survey>:nth-child(2) {
+    display: flex;
+    position: relative;
+    top: 2.4rem;
+    left: 2rem;
+}
+
+.left_survey>:nth-child(3) {
+    display: flex;
+    position: relative;
+    top: 10.5rem;
+    left: 2rem;
+}
+
+.left_survey>:nth-child(4) {
+    display: flex;
+    position: relative;
+    top: 19.5rem;
+    left: 2rem;
+}
+
+.left_survey>:nth-child(5) {
+    display: flex;
+    position: relative;
+    top: 23.5rem;
+    left: 2rem;
+}
+
+.right_survey {
+    width: 100%;
+
+}
+
+.form_survey {
+    width: 100%;
+    display: flex;
+    position: relative;
+}
+
+.form_survey>:nth-child(1) {
+    display: flex;
+    width: 100%;
+    position: relative;
+    flex-direction: row;
+}
+
+.form_survey>:nth-child(2) {
+    width: 100%;
+    border: 1px solid white;
+    display: flex;
+    position: relative;
+    top: 3rem;
+    right: 14rem;
+    width: 120%;
+}
+
+.form_survey>:nth-child(3) {
+    display: flex;
+    width: 100%;
+    position: relative;
+    flex-direction: row;
+    font-size: 1.4rem;
+    top: 4.3rem;
+    justify-content: center;
+}
+
+.form_survey>:nth-child(4) {
+    width: 100%;
+    border: 1px solid white;
+    display: flex;
+    position: relative;
+    top: 5rem;
+    right: 14rem;
+    width: 120%;
+}
+
+.form_survey>:nth-child(5) {
+    display: flex;
+    width: 100%;
+    position: relative;
+    flex-direction: row;
+    font-size: 1.4rem;
+    top: 5.5rem;
+    justify-content: center;
+}
+
+.form_survey>:nth-child(6) {
+    width: 100%;
+    border: 1px solid white;
+    display: flex;
+    position: relative;
+    top: 7rem;
+    right: 14rem;
+    width: 120%;
+}
+
+.form_survey>:nth-child(8) {
+    width: 100%;
+    border: 1px solid white;
+    display: flex;
+    position: relative;
+    top: 10rem;
+    right: 14rem;
+    width: 120%;
+}
+
+.form_survey>:nth-child(10) {
+    width: 100%;
+    border: 1px solid white;
+    display: flex;
+    position: relative;
+    top: 14rem;
+    right: 14rem;
+    width: 120%;
+}
+
+.form_survey>:nth-child(11) {
+    width: 100%;
+    display: flex;
+    position: relative;
+    top: 16rem;
+    right: 7rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.fecha_survey>:nth-child(1) {
+    display: flex;
+    position: relative;
+    left: 19rem;
+    font-size: 1.4rem;
+    top: 1rem;
+}
+
+.fecha_survey>:nth-child(2) {
+    display: flex;
+    position: relative;
+    left: 20rem;
+    top: 1.5rem;
+}
+
+.insomnio_survey>:nth-child(1) {
+    display: flex;
+    position: relative;
+    right: 3rem;
+    bottom: 0.8rem;
+}
+
+.insomnio_check {
+    display: flex;
+    position: relative;
+    left: 1rem;
+    top: 0.5rem;
+    transform: scale(2);
+}
+
+.sueno_survey {
+    display: flex;
+    position: relative;
+    left: 4rem;
+}
+
+.sueno_survey>:nth-child(1) {
+    display: flex;
+    position: relative;
+    bottom: 0.8rem;
+}
+
+.sueno_survey>:nth-child(2) {
+    display: flex;
+    position: relative;
+    bottom: 0.2rem;
+    left: 1rem;
+    font-size: 1.4rem;
+}
+
+.cuadro_desa {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    border: 1px solid white;
+    border-radius: 20px;
+    padding: 0;
+    width: 15rem;
+    justify-content: center;
+    align-items: center;
+    right: 2rem;
+    background-color: white;
+    color: black;
+}
+
+.cuadro_desa>:nth-child(2) {
+    border-radius: 20px;
+}
+
+.hijo_desa {
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: cyan;
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}
+
+.hijo_desa>:nth-child(1) {
+    display: flex;
+    position: relative;
+    margin-top: 0;
+}
+
+.hijo_desa>:nth-child(2) {
+    display: flex;
+    position: relative;
+    left: 1rem;
+    transform: scale(2);
+    margin: 0;
+}
+
+.nombre_comida_survey {
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.descripcion_comida_survey {
+    font-size: 1rem;
+}
+
+.gramos_comida_survey {
+    color: red;
+}
+
+.td_cuadro {
+    border: 0;
+    height: 10rem;
+}
+
+.cuadro_comi {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    border: 1px solid white;
+    border-radius: 20px;
+    padding: 0;
+    width: 15rem;
+    justify-content: center;
+    align-items: center;
+    right: 1rem;
+    background-color: white;
+    color: black;
+}
+
+.cuadro_cena {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    border: 1px solid white;
+    border-radius: 20px;
+    padding: 0;
+    width: 15rem;
+    justify-content: center;
+    align-items: center;
+    right: 0rem;
+    background-color: white;
+    color: black;
+}
+
+.rutina_survey {
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    justify-content: center;
+    left: 3rem;
+    top: 9rem;
+    width: 100%;
+    font-size: 1.4rem;
+}
+
+.rutina_survey>:nth-child(1) {
+    display: flex;
+    position: relative;
+    right: 5rem;
+}
+
+.ejer_survey>:nth-child(1) {
+    display: flex;
+    position: relative;
+    bottom: 0.8rem;;
+}
+
+.ejer_survey>:nth-child(2) {
+    display: flex;
+    position: relative;
+    left: 1rem;
+    bottom: 0.2rem;
+    transform: scale(2);
+}
+
+.horas_survey {
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    justify-content: center;
+    font-size: 1.4rem;
+    left: 2rem;
+}
+
+.horas_survey>:nth-child(1) {
+    display: flex;
+    position: relative;
+    bottom: 0.8rem;
+    right: 3rem;
+}
+
+.horas_survey>:nth-child(2) {
+    display: flex;
+    position: relative;
+    bottom: 0.2rem;
+    right: 2rem;
+    font-size: 1.4rem;
+}
+
+.tabla_rutina_survey {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    width: 80%;
+    border: 1px solid white;
+    top: 10rem;
+    font-size: 1.4rem;
+    right: 1.2rem;
+}
+
+.medicamneto_survey {
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    justify-content: center;
+    font-size: 1.4rem;
+    right: 16rem;
+    top: 11.5rem;
+}
+
+.medicamneto_survey>:nth-child(2) {
+    display: flex;
+    position: relative;
+    left: 1rem;
+    top: 0.5rem;
+    transform: scale(2);
+}
+
+.cuesti-survey {
+    display: flex;
+    position: relative;
+    background-color: purple;
+    color: white;
+    width: 50%;
+    height: 3rem;
+}
+
+.medic_part {
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    justify-content: center;
+    font-size: 1.4rem;
+}
+
+.medic_part>:nth-child(1) {
+    display: flex;
+    position: relative;
+    right: 0rem;
+}
+
+.medic_part>:nth-child(2) {
+    display: flex;
+    position: relative;
+    left: 3rem;
+    top: 11.5rem;
+}
+
+.input_medic>:nth-child(2) {
+    display: flex;
+    position: relative;
+    left: 1rem;
+    top: 0.5rem;
+    font-size: 1.4rem;
+}
+
+.text-rutina {
+    margin-top: 2rem;
+}
+
+.volverInicio {
+    margin: 2rem;
+}

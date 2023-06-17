@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap');
+
+
+.SeccionRutina {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.text {
+  color: black;
+}
+
+table {
+  width: 90%;
+  position: relative;
+  background: linear-gradient(to bottom, #84e184, #00b300);
+  border-collapse: collapse;
+  overflow: hidden;
+  font-family: "Lato", sans-serif;
+}
+
+th {
+  border: 1px solid black;
+  padding: 2rem;
+  background-color: #d3ffd3;
+  color: white;
+}
+
+td {
+  text-align: center;
+  border: 1px solid black;
+  padding: 2rem;
+}
+
+.SeccionRutina > table > tr > td > :nth-child(1) {
+  font-weight: bold;
+  color: black;
+  margin-bottom: 0.5rem;
+  text-transform: uppercase;
+}
+
+.SeccionRutina > table > tr > td > :nth-child(2) {
+  color: black;
+  margin-bottom: 0.5rem;
+}
+
+.SeccionRutina > table > tr > td > :nth-child(3) {
+  color: blueviolet;
+  margin-bottom: 0.5rem;
+}
+
+.SeccionRutina > table > tr > td > :nth-child(4) {
+  color: blueviolet;
+  margin-bottom: 0.5rem;
+}
+
+.SeccionRutina > table > tr > td > :nth-child(5) {
+  color: blue;
+  margin-bottom: 0.5rem;
+}
+
+.SeccionRutina > table > tr:first-child > th {
+  background-color: #68f068;
+}

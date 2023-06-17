@@ -1,0 +1,50 @@
+.SeccionVideojuego {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 40rem;
+}
+
+.SeccionVideojuego>img {
+    display: flex;
+    width: 15rem;
+}
+
+.SeccionVideojuego>.bacteria {
+    display: flex;
+    position: relative;
+    left: 2rem;
+    bottom: 10rem;
+}
+
+.SeccionVideojuego>.nutriman {
+    display: flex;
+    position: relative;
+    left: 34rem;
+    bottom: 10rem;
+}
+
+.SeccionVideojuego>.virus {
+    display: flex;
+    position: relative;
+    top: 10rem;
+    right: 5rem;
+}
+
+.SeccionVideojuego>.descarga_juego {
+    display: flex;
+    width: 20rem;
+    height: 5rem;
+    background-color: #1e1e1e;
+    color: white;
+    border-radius: 1rem;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+    position: relative;
+    bottom: 10rem;
+    right: 22rem;
+    cursor: pointer;
+}
